@@ -1,0 +1,54 @@
+{
+  "name": "IT Support Ticketing System",
+  "short_name": "IT Support",
+  "description": "Meghe Group of Schools - IT Support Ticketing System",
+  "start_url": "/ticketing-system/",
+  "scope": "/ticketing-system/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
+  "theme_color": "#667eea",
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/sabitavinod/ticketing-system/main/meghe-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://raw.githubusercontent.com/sabitavinod/ticketing-system/main/meghe-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://via.placeholder.com/540x720/667eea/ffffff?text=IT+Support+Tickets",
+      "sizes": "540x720",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/1080x1440/667eea/ffffff?text=Ticket+Management",
+      "sizes": "1080x1440",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["productivity"],
+  "shortcuts": [
+    {
+      "name": "Submit Ticket",
+      "short_name": "New Ticket",
+      "description": "Quickly submit a new IT support ticket",
+      "url": "/ticketing-system/?action=submit",
+      "icons": []
+    },
+    {
+      "name": "View Tickets",
+      "short_name": "My Tickets",
+      "description": "View your submitted tickets",
+      "url": "/ticketing-system/?action=tickets",
+      "icons": []
+    }
+  ]
+}
