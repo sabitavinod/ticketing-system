@@ -1068,7 +1068,7 @@
         }
         
         try {
-          const ticketId = await this.callBackend('createTicket', school, dept, location, computerNumber, issueType, priority, description);
+          const ticketId = await this.callBackend('createTicket', school, dept, location, computerNumber, issueType, priority, description, this.userEmail);
           
           const messageElementId = formPrefix === 'staff' ? 'submitMessage' : `${formPrefix}SubmitMessage`;
           this.showMessage(messageElementId, `Ticket ${ticketId} created successfully! The IT team has been notified.`, 'success');
